@@ -1,0 +1,159 @@
+.header{
+	position: fixed;
+	top: 10px;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	display: block;
+}
+
+.rightheader{
+	min-width: 220px;
+	z-index: 987;
+	float: right;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	text-align: right;
+	margin-left: 0;
+	margin-right: 0;
+	height: 30px;
+	display: block;
+
+}
+
+.nav_menu{
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 24px;
+	outline: none;
+	vertical-align: middle;
+	font-size: 13px;
+	text-align: right;
+	opacity: .75;
+	font-family: arial, sans-serif;
+	padding-left: 15px;
+	
+}
+
+
+#signinbutton {
+	position: relative;
+	display: inline-block;
+	line-height: 28px;
+	padding:0 12px;
+	border-radius: 2px;
+	text-align: left;
+	white-space: nowrap;
+	color: #fff;
+	cursor: default;
+	text-decoration: none;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background-color: rgb(67, 135, 253); /**gradient used here with something called webkit?**/
+
+
+}
+
+#options_button{
+	height:30px;
+	width:30px;
+	text-decoration: none;
+	cursor: default;
+	opacity: .55;
+	background-image: url("google_icons.png");
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+	display: inline-block;
+	outline: none;
+	vertical-align: middle;
+	border-radius: 2px;
+	line-height: normal;
+	text-align: left;
+
+}
+
+#content{
+	position: fixed;
+	height: 500px;
+	width: 100%;
+	top: 45px;
+}
+
+#searchbox {
+	z-index: 1;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	max-width: 100;
+}
+
+#logo{
+	text-align: center;
+	display: block;
+	transform: scale(0.5, 0.5);
+	position: relative;
+	top: -20px;
+}
+
+#button_container{
+	position: relative;
+	top: -70px;
+	text-align: center;
+}
+.google_button {
+	height: 29px;
+	line-height: 27px;
+	background-color: rgb(230, 230, 230);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	color: #444;
+	font-family: arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 11px 8px;
+	min-width: 54px;
+	padding: 0 8px;
+	text-align: center;
+}
+
+#footer{
+	position:fixed;
+	display: block;
+	bottom: 0px;
+	left: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 980px;
+}
+
+#rsfooter{
+	margin-right: 30px;
+	float: right;
+	white-space: nowrap;
+	line-height: 40px;
+}
+
+#lsfooter{
+	margin-right: 30px;
+	float: left;
+	white-space: nowrap;
+	line-height: 40px;
+}
+
+.footer_links{
+	display: inline-block;
+	color: #666;
+	text-decoration: none;
+	white-space: nowrap;
+	padding-left: 27px;
+	margin: 0;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+
